@@ -140,7 +140,7 @@ public class AccountModuleTest {
 		Statement st=con.createStatement();
 		int update=st.executeUpdate("insert into customerAccount values ('"+mail+"',"+custID+","+acctID+")");
 		System.out.println(update+" row inserted");
-	
+		System.out.println("Just checking");
 	
 	
 	}
