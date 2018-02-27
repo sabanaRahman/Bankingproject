@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [InetBanking]">
+  <listeners>
+    <listener class-name="utilities.Reporting"/>
+  </listeners>
+  <test name="CustomerModule(failed)">
+    <classes>
+      <class name="Tests.CustomerModuleTest">
+        <methods>
+          <include name="linkCountTest"/>
+          <include name="captureScreen"/>
+          <include name="deleteCustomer"/>
+          <include name="teardowm"/>
+          <include name="addCustomer"/>
+          <include name="editCustomer"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Tests.CustomerModuleTest -->
+    </classes>
+  </test> <!-- CustomerModule(failed) -->
+</suite> <!-- Failed suite [InetBanking] -->

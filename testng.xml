@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="InetBanking">
+<listeners>
+<listener class-name="utilities.Reporting"/>
+
+</listeners>
+
+
+  <test name="CustomerModule">
+    <classes>
+      <class name="Tests.CustomerModuleTest"/>
+    </classes>
+  </test> <!-- CustomerModule -->
+</suite> <!-- InetBanking -->
